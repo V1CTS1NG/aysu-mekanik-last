@@ -1,0 +1,41 @@
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+    display:none;
+    }
+    
+    .nbs-flexisel-container {
+        position:relative;
+        max-width:100%;
+    }
+    .nbs-flexisel-ul {
+        position:relative;
+        width:99999px;
+        list-style-type:none;   
+        text-align:center;  
+        overflow: auto;
+    }
+    
+    .nbs-flexisel-inner {
+        position: relative;
+        overflow: hidden;
+        float:left;
+        width:100%;
+    }
+    
+    .nbs-flexisel-item {
+        float:left;
+        margin:0px;
+        padding:0px;
+        position:relative;
+        line-height:0px;
+    }
+    .nbs-flexisel-item img {
+        max-width: 100%;
+        cursor: pointer;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+.slider{
+    margin: 6rem 0;
+}
